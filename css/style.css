@@ -2,12 +2,16 @@
 
 /* link the web font used for the level 1 heading here */
 
+
 /*////////// Global Styles //////////*/
 
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
+}
+body{
+	margin: 0;
 }
 
 .wrapper {
@@ -18,3 +22,50 @@ body {
 }
 
 /* Write all remaining styles here */
+
+.zetsy-logo {
+	color: rgb(155, 171, 167);
+	font-family: 'Baskerville', serif;
+	font-size: 80px;
+	display:inline;
+	padding: 0;
+}
+
+.zetsy-logo:hover {
+	color:rgb(111, 127, 122);
+}
+
+.picture-border {
+	border: solid 5px rgb(155, 171, 167);
+}
+
+h2{
+	font-size: 2.0em;
+	color:rgb(111, 127, 122);
+}
+
+p{
+	font-weight: normal;
+}
+
+.learn-more {
+	text-decoration: none;
+}
+
+.press-img{
+	display:inline-block;
+	border: solid 5px #ccc;
+}
+
+.press-img:hover{
+	
+	border: solid 5px rgb(111, 127, 122);
+
+}
+
+.copyright{
+	text-align: right;
+	font-size: .75em;
+	
+	
+}
